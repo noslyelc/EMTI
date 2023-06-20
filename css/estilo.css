@@ -1,0 +1,104 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+   background: rgb(255, 255, 255);
+}
+
+/*CABEÇALHO DO SITE*/ 
+header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   
+}
+.menu ul li{
+ display: inline ;
+}
+
+
+.menu > ul > li > a:link{
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+}
+
+.menu > ul > li > a:hover{
+   border-bottom: 2px solid green;
+}
+
+.menu > ul > li > a:active{
+   color: black;
+   border-bottom: 2px solid green;
+   font-weight: 700;
+}
+#ativo{
+   border-bottom: 2px solid green;
+}
+/*IMAGENS DO SITE*/
+ #logo{
+   width: 72px;
+ }
+ 
+/*SEÇÕES*/
+#banner-principal{
+   width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: aliceblue;
+}
+.conteudo{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   max-width: 20%;
+}
+.template{
+   width: 250px;
+   height: 250px;
+   margin-bottom: 20px;
+   border-radius: 40%;
+}
+/*Seções*/
+.imagem{
+   width: 250px;
+   height: 250px;
+   margin-bottom: 20px;
+   border-radius: 40%;
+}
+#video{
+   background-color: rgba(145, 200, 120, 1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   border-bottom: 3px solid orange;
+}
+#video2{
+   background-color:aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   border-bottom: 3px solid orange;
+}
+/*RODAPE*/
+footer{
+   text-align: center;
+   padding: 20px;
+}
+footer > p > a{
+   text-decoration: none;
+   color: black;
+}
